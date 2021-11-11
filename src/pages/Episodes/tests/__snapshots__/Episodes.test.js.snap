@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Episodes Page renders correctly 1`] = `
+<div
+  className="EpisodeWrapper"
+>
+  <div
+    className="InfoWrapper"
+  >
+    <img
+      alt="My test"
+    />
+    <div
+      className="Details"
+    >
+      <h2>
+        My test
+      </h2>
+      <p
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>Testing test</p>",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

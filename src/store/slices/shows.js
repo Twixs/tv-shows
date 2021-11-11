@@ -14,12 +14,12 @@ export const showsSlice = createSlice({
       state.loading = true;
     },
     getShowsSuccess: (state, action) => {
-      state.loading = false;
       state.data = action.payload;
+      state.loading = false;
     },
     getShowsFail: (state, action) => {
-      state.loading = false;
       state.error = action.payload;
+      state.loading = false;
     },
   },
 });

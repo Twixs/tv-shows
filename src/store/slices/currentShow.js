@@ -15,13 +15,13 @@ export const currentShowSlice = createSlice({
       state.loading = true;
     },
     getCurrentShowDataSuccess: (state, action) => {
-      state.loading = false;
       state.show = action.payload.show;
       state.episodes = action.payload.episodes;
+      state.loading = false;
     },
     getCurrentShowDataFail: (state, action) => {
-      state.loading = false;
       state.error = action.payload;
+      state.loading = false;
     },
   },
 });

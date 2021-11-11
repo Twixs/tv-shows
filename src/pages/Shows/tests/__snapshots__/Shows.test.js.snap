@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shows Page renders correctly 1`] = `
+<div
+  className="ShowWrapper"
+>
+  <div
+    className="InfoWrapper"
+  >
+    <img
+      alt="My test show"
+    />
+    <div
+      className="Details"
+    >
+      <h2>
+        My test show
+      </h2>
+      <p
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>Testing test</p>",
+          }
+        }
+      />
+    </div>
+  </div>
+  <h3>
+    Episodes
+  </h3>
+  <div
+    className="ListItem"
+  >
+    <p
+      className="ListItemShortInfo"
+    >
+      x
+      :
+    </p>
+    <a
+      href="/episodes/1"
+      onClick={[Function]}
+    >
+      My test episode
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoBlock component should match snapshot 1`] = `
+<div
+  className="InfoWrapper"
+>
+  <img
+    alt="Test"
+  />
+  <div
+    className="Details"
+  >
+    <h2>
+      Test
+    </h2>
+    <p
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<p>Testing InfoBlock</p>",
+        }
+      }
+    />
+  </div>
+</div>
+`;
