@@ -1,0 +1,22 @@
+$darkPrimaryColor: #282c34;
+
+.List {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 275px);
+  grid-gap: 20px 0;
+  justify-content: center;
+  align-items: center;
+
+  .ListItem {
+    text-align: center;
+
+    .ListItemTitle {
+      margin-top: 10px;
+    }
+  }
+
+  .ListItemLink {
+    text-decoration: none;
+    color: $darkPrimaryColor;
+  }
+}

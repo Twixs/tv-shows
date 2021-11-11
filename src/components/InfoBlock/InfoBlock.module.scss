@@ -1,0 +1,15 @@
+.InfoWrapper {
+  display: flex;
+
+  @media screen and (max-width: 787px) {
+    flex-wrap: wrap;
+  }
+}
+
+.Details {
+  margin-left: 20px;
+
+  @media screen and (max-width: 787px) {
+    margin-left: 0;
+  }
+}
